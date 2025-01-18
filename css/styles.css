@@ -261,7 +261,7 @@ a {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/back.jpg);
+    url(../images/back@1x.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: auto 100%;
@@ -272,6 +272,16 @@ a {
   justify-content: center;
   align-items: center;
   gap: 72px;
+}
+
+@media (min-resolution: 2dppx) {
+  .sn-one {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/back@2x.jpg);
+  }
 }
 
 .sn-one .h-one {
@@ -736,10 +746,17 @@ display: flex;
   transform: translateY(0%);
 }
 
-.img-div img {
+.img-div picture img {
   width: 288px;
   height: 280px;
   object-fit: cover;
+  object-position: center;
+}
+.img-div picture .x-two-img {
+  width: 288px;
+  height: 280px;
+  object-fit: cover;
+  object-position: center;
 }
 
 .card-text .h-three {
