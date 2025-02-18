@@ -12,12 +12,9 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  /*    margin-right: 76px;*/
+
   padding-bottom: 16px;
   padding-top: 16px;
-}
-
-.header {
 }
 
 .mob-header-icon {
@@ -499,13 +496,11 @@ ul {
 }
 
 .content-footer {
-  /*    align-items: baseline;*/
   display: flex;
   flex-direction: column;
 }
 
 .information_block_footer {
-  /*    margin-right: 120px;*/
   max-width: 264px;
   display: flex;
   flex-wrap: wrap;
@@ -757,13 +752,6 @@ p {
 }
 
 @media screen and (min-width: 768px) {
-  /*    .modal{*/
-  /*        width: 320px;*/
-  /*        padding-left: 16px;*/
-  /*        padding-right: 16px;*/
-
-  /*    }*/
-
   .menu-backdrop {
     display: none;
   }
